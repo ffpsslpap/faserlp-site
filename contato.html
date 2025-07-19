@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato | FASERLP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">FASERLP</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="valores.html">Valores</a></li>
+        <li><a href="proposito.html">Propósito</a></li>
+        <li><a href="contato.html" class="active">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-section" style="margin-top: 100px;">
+    <h1>Contato</h1>
+    <p>Tem dúvidas, sugestões ou quer conversar conosco? Use o formulário abaixo para nos enviar uma mensagem.</p>
+    <form action="#" method="post" style="max-width: 600px; margin-top: 1rem;">
+      <label for="nome">Nome:</label><br />
+      <input type="text" id="nome" name="nome" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;" />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;" />
+
+      <label for="mensagem">Mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem" rows="5" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;"></textarea>
+
+      <button type="submit" style="background-color: #1565c0; color: white; border: none; padding: 0.7rem 1.2rem; cursor: pointer; border-radius: 4px;">Enviar</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>FASERLP © 2025 - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
